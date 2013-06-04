@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @photo.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @photo.email %>
+</p>
+
+<p>
+  <b>Prey common:</b>
+  <%= @photo.prey_common %>
+</p>
+
+<p>
+  <b>Prey latin:</b>
+  <%= @photo.prey_latin %>
+</p>
+
+<p>
+  <b>Bird common:</b>
+  <%= @photo.bird_common %>
+</p>
+
+<p>
+  <b>Bird latin:</b>
+  <%= @photo.bird_latin %>
+</p>
+
+<p>
+  <b>Location friendly:</b>
+  <%= @photo.location_friendly %>
+</p>
+
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

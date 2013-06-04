@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  prey_common: MyString
+  prey_latin: MyString
+  bird_common: MyString
+  bird_latin: MyString
+  location_friendly: MyString
+
+two:
+  name: MyString
+  email: MyString
+  prey_common: MyString
+  prey_latin: MyString
+  bird_common: MyString
+  bird_latin: MyString
+  location_friendly: MyString
